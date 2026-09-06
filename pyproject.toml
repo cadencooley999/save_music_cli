@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "save-music"
+version = "0.1.0"
+description = "Download your Apple Music playlists as MP3 files from YouTube"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp",
+    "mutagen",
+]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/caden999/save-music"
+
+[project.scripts]
+save-music = "save_music.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["save_music*"]
