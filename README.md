@@ -9,16 +9,7 @@ https://youtu.be/kkGEjll3UuM
 ## Install
 
 ```bash
-pip install yt-dlp mutagen
-git clone https://github.com/caden999/save-music
-cd save-music
-pip install .
-```
-
-Or in editable mode for development:
-
-```bash
-pip install -e .
+pip install save-music
 ```
 
 ## Usage
