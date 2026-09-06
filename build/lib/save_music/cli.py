@@ -22,7 +22,7 @@ def main():
 
     parser.add_argument(
         "playlist_path",
-        help="Path to the exported Apple Music playlist file",
+        help="Path to the exported Apple Music playlist file (should be a plist exported as txt)",
     )
 
     parser.add_argument(
