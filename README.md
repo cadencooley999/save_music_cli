@@ -2,6 +2,10 @@
 
 Download your Apple Music playlists as MP3 files from YouTube.
 
+## Tutorial Video
+
+https://youtu.be/kkGEjll3UuM
+
 ## Install
 
 ```bash
