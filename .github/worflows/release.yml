@@ -38,7 +38,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/YOUR-PACKAGE-NAME
+      url: https://pypi.org/p/save-music
 
     permissions:
       id-token: write
